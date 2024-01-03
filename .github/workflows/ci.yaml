@@ -31,7 +31,7 @@ jobs:
 
     - name: Create CML report
       env:
-        REPO_TOKEN: ${{ secrets.CI_SECRET }}
+        REPO_TOKEN: ${{ secrets.ci_token }}
       run: |
 
         echo "# First Line of our report" >> report.md
